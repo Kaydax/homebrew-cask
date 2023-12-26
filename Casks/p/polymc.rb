@@ -7,12 +7,6 @@ cask "polymc" do
     url "https://github.com/PolyMC/PolyMC/releases/download/#{version}/PolyMC-macOS-Legacy-#{version}.tar.gz",
         verified: "github.com/PolyMC/PolyMC/"
   end
-  on_catalina :or_newer do
-    sha256 "7fb72c2eef2900c90bc999062f85ed5e6faa60856bc7fa6e80e14c4bd4d4a61a"
-
-    url "https://github.com/PolyMC/PolyMC/releases/download/#{version}/PolyMC-macOS-#{version}.tar.gz",
-        verified: "github.com/PolyMC/PolyMC/"
-  end
 
   name "PolyMC"
   desc "Minecraft launcher"
